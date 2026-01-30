@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<compra xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="prueba.xsd">
+
+    <producto>
+        <vendedor>walmart</vendedor>
+        <producto>laptop</producto>
+        <marca>HP</marca>
+        <precio>10000</precio>
+        <moneda>MX</moneda>
+    </producto>
+
+    <usuario>
+        <cliente>Juan Perez</cliente>
+        <RFC>JUAP890123XYZ</RFC>
+        <producto>laptop</producto>
+        <precio>10000</precio>
+        <moneda>MX</moneda>
+    </usuario>
+
+</compra>

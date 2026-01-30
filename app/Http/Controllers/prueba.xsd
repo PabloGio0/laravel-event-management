@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+    <!-- elemento raiz-->
+    <xs:element name="compra">
+
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="producto">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="vendedor" type="xs:string" />
+                            <xs:element name="producto" type="xs:string" />
+                            <xs:element name="marca" type="xs:string" />
+                            <xs:element name="precio" type="xs:float" />
+                            <xs:element name="moneda" type="xs:string" />
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+
+
+                <xs:element name="usuario">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="cliente" type="xs:string" />
+                            <xs:element name="RFC" type="xs:string" />
+                            <xs:element name="producto" type="xs:string" />
+                            <xs:element name="precio" type="xs:float" />
+                            <xs:element name="moneda" type="xs:string" />
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    <!-- cierra elemento raiz-->
+    </xs:element>
+</xs:schema>

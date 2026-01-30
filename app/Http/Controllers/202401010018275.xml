@@ -1,0 +1,65 @@
+<cfdi:Comprobante xmlns:cfdi="http://www.sat.gob.mx/cfd/4"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns:nomina12="http://www.sat.gob.mx/nomina12"
+  xsi:schemaLocation="http://www.sat.gob.mx/cfd/4 http://www.sat.gob.mx/sitio_internet/cfd/4/cfdv40.xsd
+                      http://www.sat.gob.mx/nomina12 http://www.sat.gob.mx/sitio_internet/cfd/nomina/nomina12.xsd"
+  Version="4.0" Folio="202401010018275" Fecha="2024-01-15T13:09:46"
+  Sello="FNUppyTGnp5uos+Be7OLMLifGceFOP1DujPwdwDnNXNtjloQTZQEB46cr7vyRYVQQBceOV8Eiual&#xA;G1avAgczKkevw0k4UpfwD4fKJ8uwN7MYlRc34CJzJsqIOR6a9pExbXVOtGVFl1Y7H5VnQwuB/OeB&#xA;R324BzMv/K72oFp7KV9q93pD+LBa0eWuWUnAmpjIKKz+c3Mf2XVoYCUpjvvnAzyn6u0n/Ctxl5IT&#xA;5uHnRoQeOJzYokjZVgUsEM/33pd/DRgXFn03lcV5fkmRaQQc+BZDcTy7gM+R1sU684n1h6sBzXbn&#xA;umx4SZbS1CrJ5g6UTEskBCcSwJElPUSX3a6URQ=="
+  NoCertificado="00001000000507916452"
+  Certificado="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"
+  SubTotal="76644.53" Descuento="10642.72" Moneda="MXN" Total="66001.81" TipoDeComprobante="N"
+  Exportacion="01" MetodoPago="PUE" LugarExpedicion="04510">
+  <cfdi:Emisor Rfc="UNA2907227Y5" Nombre="UNIVERSIDAD NACIONAL AUTONOMA DE MEXICO"
+    RegimenFiscal="603" />
+  <cfdi:Receptor Rfc="EEEEEEEEEEEE" Nombre="CARLOTA ENRIQUEZ REYES" DomicilioFiscalReceptor="07550"
+    RegimenFiscalReceptor="605" UsoCFDI="CN01" />
+  <cfdi:Conceptos>
+    <cfdi:Concepto ClaveProdServ="84111505" Cantidad="1" ClaveUnidad="ACT"
+      Descripcion="Pago de nómina" ValorUnitario="76644.53" Importe="76644.53" Descuento="10642.72"
+      ObjetoImp="01" />
+  </cfdi:Conceptos>
+  <cfdi:Complemento>
+    <nomina12:Nomina Version="1.2" TipoNomina="O" FechaPago="2024-01-10"
+      FechaInicialPago="2024-01-01" FechaFinalPago="2024-01-15" NumDiasPagados="15"
+      TotalPercepciones="76644.53" TotalDeducciones="10642.72" TotalOtrosPagos="0.00">
+      <nomina12:Emisor RegistroPatronal="0077009900" />
+      <nomina12:Receptor Curp="EEEEEEEEEEEE" NumSeguridadSocial="11111111111"
+        FechaInicioRelLaboral="1998-05-16" Antigüedad="AAA" TipoContrato="01" TipoRegimen="02"
+        NumEmpleado="808370" RiesgoPuesto="99" PeriodicidadPago="04" Banco="012"
+        CuentaBancaria="01580124306" SalarioDiarioIntegrado="1112.37" ClaveEntFed="CMX" />
+      <nomina12:Percepciones TotalSueldos="76644.53" TotalGravado="74757.43" TotalExento="1887.10">
+        <nomina12:Percepcion TipoPercepcion="001" Clave="100" Concepto="SUELDOS Y SALARIOS"
+          ImporteGravado="16685.60" ImporteExento="0.00" />
+        <nomina12:Percepcion TipoPercepcion="002" Clave="334" Concepto="AGUINALDO"
+          ImporteGravado="41826.47" ImporteExento="1556.10" />
+        <nomina12:Percepcion TipoPercepcion="034" Clave="342" Concepto="MATERIAL DIDACTICO Y LIBROS"
+          ImporteGravado="0.00" ImporteExento="331.00" />
+        <nomina12:Percepcion TipoPercepcion="038" Clave="348" Concepto="OTROS INGRESOS POR SALARIOS"
+          ImporteGravado="16245.36" ImporteExento="0.00" />
+      </nomina12:Percepciones>
+      <nomina12:Deducciones TotalOtrasDeducciones="4398.02" TotalImpuestosRetenidos="6244.70">
+        <nomina12:Deduccion TipoDeduccion="001" Clave="000" Concepto="SEGURIDAD SOCIAL"
+          Importe="700.26" />
+        <nomina12:Deduccion TipoDeduccion="002" Clave="000" Concepto="ISR" Importe="6244.70" />
+        <nomina12:Deduccion TipoDeduccion="003" Clave="000"
+          Concepto="CUOTA RETIRO, CESANTIA EDAD AVANZADA Y VEJEZ" Importe="953.11" />
+        <nomina12:Deduccion TipoDeduccion="004" Clave="000" Concepto="OTROS" Importe="2577.79" />
+        <nomina12:Deduccion TipoDeduccion="019" Clave="000" Concepto="CUOTAS SINDICALES"
+          Importe="166.86" />
+      </nomina12:Deducciones>
+      <nomina12:OtrosPagos>
+        <nomina12:OtroPago TipoOtroPago="002" Clave="050"
+          Concepto="SUBSIDIO PARA EL EMPLEO EFECTIVAMENTE ENTREGADO AL TRABAJADOR" Importe="0.00">
+          <nomina12:SubsidioAlEmpleo SubsidioCausado="0.00" />
+        </nomina12:OtroPago>
+      </nomina12:OtrosPagos>
+    </nomina12:Nomina>
+    <tfd:TimbreFiscalDigital xmlns:tfd="http://www.sat.gob.mx/TimbreFiscalDigital"
+      xsi:schemaLocation="http://www.sat.gob.mx/TimbreFiscalDigital http://www.sat.gob.mx/sitio_internet/cfd/TimbreFiscalDigital/TimbreFiscalDigitalv11.xsd"
+      Version="1.1" UUID="967F1D3A-CE49-4453-9C02-A7CA250343B6" FechaTimbrado="2024-01-17T11:21:42"
+      RfcProvCertif="SAT970701NN3"
+      SelloCFD="FNUppyTGnp5uos+Be7OLMLifGceFOP1DujPwdwDnNXNtjloQTZQEB46cr7vyRYVQQBceOV8Eiual&#xA;G1avAgczKkevw0k4UpfwD4fKJ8uwN7MYlRc34CJzJsqIOR6a9pExbXVOtGVFl1Y7H5VnQwuB/OeB&#xA;R324BzMv/K72oFp7KV9q93pD+LBa0eWuWUnAmpjIKKz+c3Mf2XVoYCUpjvvnAzyn6u0n/Ctxl5IT&#xA;5uHnRoQeOJzYokjZVgUsEM/33pd/DRgXFn03lcV5fkmRaQQc+BZDcTy7gM+R1sU684n1h6sBzXbn&#xA;umx4SZbS1CrJ5g6UTEskBCcSwJElPUSX3a6URQ=="
+      NoCertificadoSAT="00001000000504465028"
+      SelloSAT="RHU3iNULXqovFI+B9vQlrTpmlcyMziCX6uKxYKewjiZtCzOFHAiaaefr2kRISJfcGD5WXbuFeexYD9pMdbwSkmLXZFTBpZn48i0AJ7vipqT7ae/hJutHzkqzd7ty5pYH53KXVi7yBpyr8pbhcxgBEMUjlu78cg4gbwFkypHUGsMfT4WqWJZbB4Wm0wy6qXxc2rULQ5DCDwNuP1GNaxmnHKrkid+0ZmRQMj3PFkYOLgbhKS73f1t+ma0RuwFevaXWAwkgEaYcPBvxahAJmY9ExztwtPvZvqve0KxAF0hUquLLSL5dNhhGee2uVzQojIPTpzXoZbDRUb+xXeNYhfck5Q==" />
+  </cfdi:Complemento>
+</cfdi:Comprobante>
