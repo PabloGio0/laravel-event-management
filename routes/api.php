@@ -36,9 +36,9 @@ Route::get("/mostrarEventoWith/{id}", [CotizacionController::class, "eventListWi
 Route::get("/mostrarEvento/{id}", [CotizacionController::class, "findEvent"]);
 Route::get("/mostrarEvento/cliente/{id}", [CotizacionController::class, "indexClient"]);
 
-Route::get("/servicios/{value}", [CotizacionController::class, "serviceSearch"]);
+Route::get("/servicios/{value}", [CotizacionController::class, "serviceSearch"])->middleware(middleware: 'role:admin');
 Route::get("/servicios/precio/{value}", [CotizacionController::class, "filtro"]);
 Route::post("/servicios/busquedaAvanzada", [CotizacionController::class, "filtroAvanzado"]);
 Route::get("/servicios/busqueda/avanzada/eventos", [CotizacionController::class, "advancedSearch"]);
 
-Route::apiResource('/servicios', ServicioController::class);
+//Route::apiResource('/servicios', ServicioController::class)->middleware(["registerInfo", "headerInfo"]);
